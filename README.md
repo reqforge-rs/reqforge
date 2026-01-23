@@ -100,7 +100,7 @@ Bypass TLS fingerprinting with browser emulation profiles:
 | Block | Description |
 |-------|-------------|
 | `Request` | Standard HTTP request with reqwest |
-| `TlsRequest` | TLS fingerprinted request via external API | https://github.com/bogdanfinn/tls-client-api
+| `TlsRequest` | TLS fingerprinted request via external API https://github.com/bogdanfinn/tls-client-api |
 | `TlsWreq` | TLS fingerprinted request via wreq library |
 
 #### Parsing Blocks
