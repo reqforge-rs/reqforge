@@ -2,6 +2,16 @@
 
 A config-based HTTP automation engine built with Tauri, React, and Rust.
 
+## Support the Project
+
+If you find this project useful, consider supporting its development:
+
+| Crypto | Address |
+|--------|---------|
+| **BTC** | `bc1qpnvfqudfsa2am779x6sz7rz7u64l8qwhkjhf3u` |
+| **LTC** | `LfaoSM2Dx7WbFb2htdVx5rr4C3FgJLKvQV` |
+| **ETH** | `0x56e660d7A1739bf2a52Ca300283479AC2eDB29B2` |
+
 ---
 
 ## ⚠️ Disclaimer
