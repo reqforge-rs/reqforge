@@ -2,6 +2,8 @@
 
 A config-based HTTP automation engine built with Tauri, React, and Rust.
 
+https://t.me/ReqForgeRS
+
 ## Support the Project
 
 If you find this project useful, consider supporting its development:
