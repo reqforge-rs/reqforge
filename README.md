@@ -100,7 +100,7 @@ Bypass TLS fingerprinting with browser emulation profiles:
 | Block | Description |
 |-------|-------------|
 | `Request` | Standard HTTP request with reqwest |
-| `TlsRequest` | TLS fingerprinted request via external API |
+| `TlsRequest` | TLS fingerprinted request via external API | https://github.com/bogdanfinn/tls-client-api
 | `TlsWreq` | TLS fingerprinted request via wreq library |
 
 #### Parsing Blocks
@@ -195,8 +195,11 @@ cd reqforge
 # Install dependencies
 npm install
 
+npm install @tailwindcss/postcss
+
 # Run in development mode
 npm run tauri dev
+
 
 # Build for production
 npm run tauri build
