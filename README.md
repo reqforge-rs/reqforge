@@ -55,7 +55,7 @@ ReqForge includes **48 specialized blocks**. Below is the complete list with the
 ### 🧠 Logic
 - **Parse Data:** Extract data using Regex, JSON path, or Left-Right parsing.
 - **Key Check:** Validate responses and set result status (Success, Fail, Ban).
-- **Rhai Script:** Execute custom logic using the Rhai scripting engine with HTTP support. // (NOT WORKING) 
+- // (NOT WORKING)  **Rhai Script:** Execute custom logic using the Rhai scripting engine with HTTP support. 
 
 ### 📦 Variables
 - **Constant String:** Store a fixed string value in a variable.
@@ -101,7 +101,7 @@ ReqForge includes **48 specialized blocks**. Below is the complete list with the
 - **Date → Unix:** Convert date string to timestamp.
 - **Unix → Date:** Format timestamp as date string.
 - **Unix → ISO8601:** Convert Unix timestamp to ISO8601 format.
-- **Firefox UA:** Generate a specific Firefox browser profile user agent. // next update this gets removed
+- // (NOT WORKING) **Firefox UA:** Generate a specific Firefox browser profile user agent. // next update this gets removed
 - **Generate GUID:** Create a globally unique identifier.
 - **Generate UUID4:** Create a random UUID v4.
 - **PKCE Verifier:** OAuth 2.0 PKCE code verifier.
