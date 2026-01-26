@@ -16,11 +16,9 @@ If you find this project useful, consider supporting its development:
 
 ---
 
-<img width="1920" height="1036" alt="Image" src="https://github.com/user-attachments/assets/25dc2b15-562d-47c6-bb6c-774876fd0a17" />
-<img width="1920" height="1036" alt="Image" src="https://github.com/user-attachments/assets/5366ee28-3bca-4545-9050-0ca822d1e6ad" />
-<img width="1920" height="1036" alt="Image" src="https://github.com/user-attachments/assets/c6f63c91-7340-49fe-97d9-53a9ffd78cea" />
+<img width="1920" height="1036" alt="Image" src="https://github.com/user-attachments/assets/c852c65b-fe5f-4225-a3de-32d1c31ab026" />
 
-<img width="1920" height="1036" alt="Image" src="https://github.com/user-attachments/assets/401d9833-f39f-404d-9d02-cd55378e9e13" />
+<img width="984" height="821" alt="Image" src="https://github.com/user-attachments/assets/7a872cfa-9950-426c-a88d-23fa77f9033e" />
 
 
 # 🛠️ ReqForge
