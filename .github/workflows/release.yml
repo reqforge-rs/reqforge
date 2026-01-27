@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+  workflow_dispatch: # Allows you to run this manually from the Actions tab
 
 jobs:
   publish-tauri:
@@ -33,7 +34,6 @@ jobs:
           sudo apt-get install -y libgtk-3-dev libwebkit2gtk-4.1-dev libayatana-appindicator3-dev librsvg2-dev
 
       - name: install frontend dependencies
-        # Added the fix here to force install the missing postcss module
         run: |
           npm install
           npm install @tailwindcss/postcss
@@ -42,8 +42,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          tagName: v__VERSION__
-          releaseName: "ReqForge v__VERSION__"
-          releaseBody: "Automated build for Windows and Linux. Note: For Windows, if you see a SmartScreen warning, click 'More Info' -> 'Run Anyway'."
-          releaseDraft: true
+          tagName: v0.1.0  # Hardcoded version to ensure it finds it
+          releaseName: "ReqForge v0.1.0"
+          releaseBody: "Automated build for Windows and Linux."
+          releaseDraft: false # Change to false so it shows up immediately
           prerelease: false
