@@ -144,7 +144,7 @@ By using this software, you agree that you will only use it on systems you own o
 ### Installation
 ```bash
 # Clone the repository
-git clone https://github.com/your-username/reqforge.git
+git clone https://github.com/reqforge-rs/reqforge.git
 cd reqforge
 
 # Install dependencies
