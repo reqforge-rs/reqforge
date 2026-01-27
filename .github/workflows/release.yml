@@ -3,7 +3,7 @@ name: "Release App"
 on:
   push:
     branches:
-      - main  # Trigger build when you push to main
+      - main
 
 jobs:
   publish-tauri:
@@ -12,7 +12,6 @@ jobs:
     strategy:
       fail-fast: false
       matrix:
-        # This creates a Windows exe AND a Linux deb at the same time
         platform: [windows-latest, ubuntu-22.04]
 
     runs-on: ${{ matrix.platform }}
@@ -34,14 +33,17 @@ jobs:
           sudo apt-get install -y libgtk-3-dev libwebkit2gtk-4.1-dev libayatana-appindicator3-dev librsvg2-dev
 
       - name: install frontend dependencies
-        run: npm install
+        # Added the fix here to force install the missing postcss module
+        run: |
+          npm install
+          npm install @tailwindcss/postcss
 
       - uses: tauri-apps/tauri-action@v0
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          tagName: v__VERSION__ # Uses version from tauri.conf.json
+          tagName: v__VERSION__
           releaseName: "ReqForge v__VERSION__"
-          releaseBody: "Automated build for Windows and Linux."
+          releaseBody: "Automated build for Windows and Linux. Note: For Windows, if you see a SmartScreen warning, click 'More Info' -> 'Run Anyway'."
           releaseDraft: true
           prerelease: false
