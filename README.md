@@ -20,6 +20,8 @@ If you find this project useful, consider supporting its development:
 
 <img width="984" height="821" alt="Image" src="https://github.com/user-attachments/assets/7a872cfa-9950-426c-a88d-23fa77f9033e" />
 
+<img width="922" height="407" alt="Image" src="https://github.com/user-attachments/assets/63e71333-12a9-47bf-ae8e-9b082eb8881b" />
+
 
 # 🛠️ ReqForge
 
