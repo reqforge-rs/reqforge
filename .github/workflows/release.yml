@@ -2,9 +2,9 @@ name: "Release App"
 
 on:
   push:
-    branches:
-      - main
-  workflow_dispatch: # Allows you to run this manually from the Actions tab
+    tags:
+      - 'v*' # Triggers only when you push a tag like v0.1.1, v1.0.0, etc.
+  workflow_dispatch:
 
 jobs:
   publish-tauri:
@@ -42,8 +42,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
-          tagName: v0.1.0  # Hardcoded version to ensure it finds it
-          releaseName: "ReqForge v0.1.0"
+          # tagName and releaseName are removed so it uses the Git Tag automatically!
           releaseBody: "Automated build for Windows and Linux."
-          releaseDraft: false # Change to false so it shows up immediately
+          releaseDraft: false
           prerelease: false
