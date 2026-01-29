@@ -1,7 +1,7 @@
 {
   "name": "reqforge",
   "private": true,
-  "version": "0.1.0",
+  "version": "../package.json",
   "type": "module",
   "scripts": {
     "dev": "vite",
