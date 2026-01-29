@@ -119,6 +119,17 @@ ReqForge includes **48 specialized blocks**. Below is the complete list with the
 
 ---
 
+## ⏺️ Proxy Recorder
+A built-in MITM proxy for capturing and analyzing HTTP/HTTPS traffic in real-time.
+
+- **HTTPS Interception:** Auto-generated CA certificate for secure traffic inspection.
+- **Live Capture:** Real-time request/response logging with status, headers, and body.
+- **Auto Decompression:** Transparent handling of gzip, brotli, zstd, and deflate responses.
+- **Request Details:** Full visibility into method, URL, headers, and body content.
+- **JSON Pretty-Print:** Automatic formatting of JSON request/response bodies.
+- **CA Export:** Export the CA certificate for installation in browsers or system trust store.
+
+
 ## 🛠️ Tech Stack
 - **Backend:** [Rust](https://www.rust-lang.org/)
 - **Frontend:** [React 19](https://react.dev/), [TypeScript](https://www.typescriptlang.org/), [Tailwind CSS 4](https://tailwindcss.com/)
