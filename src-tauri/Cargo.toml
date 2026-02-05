@@ -46,8 +46,8 @@ num-traits = "0.2"
 hkdf = "0.12"
 htmlescape = "0.3"
 rsa = "0.9"
-wreq = { version = "6.0.0-rc.21", features = ["cookies", "gzip", "brotli", "deflate", "zstd", "multipart"] }
-wreq-util = "3.0.0-rc.7"
+wreq = { version = "6.0.0-rc.27", features = ["cookies", "gzip", "brotli", "deflate", "zstd", "multipart"] }
+wreq-util = "3.0.0-rc.9"
 mime = "0.3"
 memmap2 = "0.9.4"
 async-channel = "2.2.0"
