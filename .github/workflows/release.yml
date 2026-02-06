@@ -78,9 +78,9 @@ jobs:
 
         with:
 
-          tagName: v0.1.1  # Hardcoded version to ensure it finds it
+          tagName: v0.1.2  # Hardcoded version to ensure it finds it
 
-          releaseName: "ReqForge v0.1.1"
+          releaseName: "ReqForge v0.1.2"
 
           releaseBody: "Automated build for Windows and Linux."
 
